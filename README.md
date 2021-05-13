@@ -44,6 +44,6 @@ images used in screen search are screenshoted in app
 
 - Open Clash of Clans
 - Search for Attack
-- start paython script
+- start python script
 - watch the console
 
