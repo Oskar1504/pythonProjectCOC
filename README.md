@@ -3,9 +3,9 @@ small python project which allows to play autonomous clash of clans
 
 ## Features
 - search n times for enemys
--- scan the available loot
--- scan townhall level and position
--- scan air defense level and position
+  - scan the available loot
+  - scan townhall level and position
+  - scan air defense level and position
 
 ## Roadmap
 - autonomous attacks
