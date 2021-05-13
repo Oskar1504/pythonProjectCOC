@@ -42,20 +42,22 @@ class Debug:
     ENDC = '\033[0m'
     BOLD = '\033[1m'
 
+    time = time.strftime("%H:%M:%S")
+
     def debug(self,content):
-        print(f"{self.LightMagenta}[{time.ctime()}][DEBUG]:{content}{self.ENDC}")
+        print(f"{self.LightMagenta}[{self.time}][DEBUG]: {content}{self.ENDC}")
 
     def data(self,content):
-        print(f"{self.Green}[{time.ctime()}][DATA]:{content}{self.ENDC}")
+        print(f"{self.Green}[{self.time}][DATA]: {content}{self.ENDC}")
 
     def info(self,content):
-        print(f"{self.LightCyan}[{time.ctime()}][INFO]:{content}{self.ENDC}")
+        print(f"{self.LightCyan}[{self.time}][INFO]: {content}{self.ENDC}")
 
     def warning(self,content):
-        print(f"{self.LightYellow}[{time.ctime()}][WARNING]:{content}{self.ENDC}")
+        print(f"{self.LightYellow}[{self.time}][WARNING]: {content}{self.ENDC}")
 
     def error(self,content):
-        print(f"{self.Red}[{time.ctime()}][ERROR]:{content}{self.ENDC}")
+        print(f"{self.Red}[{self.time}][ERROR]: {content}{self.ENDC}")
 
     def fatal(self,content):
-        print(f"{self.White}{self.BOLD}{self.BackgroundRed}[{time.ctime()}][FATAL_ERROR]:{content}{self.ENDC}")
+        print(f"{self.White}{self.BOLD}{self.BackgroundRed}[{self.time}][FATAL_ERROR]: {content}{self.ENDC}")
