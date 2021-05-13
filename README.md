@@ -1,5 +1,20 @@
 # pythonProjectCOC
-small python project which allows to play autonom clash of clans
+small python project which allows to play autonomous clash of clans
+
+## Features
+- search n times for enemys
+-- scan the available loot
+-- scan townhall level and position
+-- scan air defense level and position
+
+## Roadmap
+- autonomous attacks
+- autonomous armee training
+- autonomous upgrading
+
+## Ultimate goal 
+- autonomous Clash of clans account leveling on raspberry cluster
+- selling accounts on MMOGA
 
 # Requirements
 u need https://github.com/UB-Mannheim/tesseract/wiki
